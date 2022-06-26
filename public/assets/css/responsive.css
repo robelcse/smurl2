@@ -1,0 +1,246 @@
+@media only screen and (min-width: 992px){ 
+    .hirevisa-nav ul > li:hover ul {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+
+    span.sh-short-link {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px){
+
+    /*Mobile Menu*/
+    .others-option {
+        border-top: 1px solid #d8ebfd;
+        margin-top: 20px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+    .others-option a {
+        display: inline-block;
+        width: 48%;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid #d8ebfd;
+        margin-top: 16px;
+    }
+    .others-option a.btn-light {
+        margin-right: 0;
+    }
+
+    .others-option a.btn.btn-primary {
+        margin-left: 2%;
+    }
+    .others-option a.btn.btn-primary span {
+        display: none;
+    }
+    ul.submenu.nav_active {
+        opacity: 1;
+        visibility: visible;
+        z-index: 9;
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+    }
+    .hirevisa-nav ul li ul::after {
+        display: none;
+    }
+
+    .hirevisa-nav nav ul li.has-child::after {
+        width: 30px;
+        height: 30px;
+        border: 1px solid #ddd;
+        text-align: center;
+        line-height: 30px;
+        top: 11px;
+        right: 0;
+    }
+
+    .hirevisa-nav nav ul li{
+        display: block;
+    }
+    .hirevisa-nav a.navbar-brand img {
+        max-width: 175px;
+    }
+    ul.navbar-nav {
+        margin-left: 0px;
+    }
+    
+    .hirevisa-nav nav ul li {
+        padding: 10px 0;
+    }
+    
+    .others-option a.auth-link {
+        padding: 10px 0;
+    }
+    .signup-form{
+        width: 100%;
+    }
+    .signup-section .signup-form {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .d-on-desktop{
+        display: none;
+    }
+    .d-on-mobile{
+        display: block;
+    }
+    .url-form-area .form-group input {
+        margin-bottom: 10px;
+    }
+
+    /*url shortner form*/
+    .url-form-area .form-group input {
+        border-right: 1px solid #d4d4d4;
+    }
+    
+    .custom-brand-field {
+        border-left: 0px!important;
+        border-top-right-radius: 4px!important;
+        border-bottom-right-radius: 4px!important;
+    }
+    
+    .url-form-area .form-group input.no-custom-brand {
+        border-top-right-radius: 4px!important;
+        border-bottom-right-radius: 4px!important;
+    }
+    
+    .url-form-area .btn {
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+    .links_history .sh-long-link {
+        display: none;
+    }
+    .service-box{
+        margin-bottom: 30px;
+        height: auto;
+    }
+    header .others-option {
+        margin: 0;
+        border: none;
+        padding: 0;
+    }
+    .url-form-area .current-qr{
+        display: none;
+    }
+    td.customer-link {
+        max-width: 300px;
+        word-break: break-all;
+    }
+    
+    .my-links-section span.sh-short-link {
+        display: block;
+    }
+    
+    .my-links-section button.copyTOclipboard.button.bts-sm {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    
+    a.details-btn {
+        width: 125px;
+        display: block;
+        text-align: center;
+    }
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.footer-bottom p, .footer-bottom ul {
+    text-align: center;
+}
+
+.footer-bottom ul {
+    margin-top: 15px;
+}
+.form-shape, .banner-shape {
+    bottom: -2px;
+}
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    .current-shorten-url {
+        word-break: break-all;
+    }
+    .custom-brand-field {
+        max-width: 100%;
+        border-radius: 4px!important;
+        border-left: 1px solid #d4d4d4!important;
+    }
+    
+    .url-form-area .form-group input {
+        border-radius: 4px!important;
+    } 
+    ul.links_history .link{
+        padding: 12px;
+    }
+    .banner-title h1 {
+        font-size: 30px;
+    }
+    
+    .url-form-area {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .banner-title p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    
+    .links_history .list-qr {
+        display: none;
+    }
+    
+    button.copyTOclipboard.button {
+        margin-left: 0;
+    }
+    
+    span.sh-short-link {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .section-title h2 {
+        font-size: 30px;
+    }
+    
+    .section-title p {
+        font-size: 14px;
+    }
+    .footer-bottom p, .footer-bottom ul {
+        text-align: center;
+    }
+
+    .footer-bottom ul {
+        margin-top: 15px;
+    }
+    .my-links-section table.table {
+        width: 700px;
+    }
+    .shortner-form {
+        padding: 30px 20px;
+    }
+    .forgot-links {
+        font-size: 12px;
+    }
+    .pikly-pagination .pagination {
+        flex-wrap: wrap;
+    }
+    
+    .pikly-pagination .page-item {
+        margin-bottom: 6px;
+    }
+}
